@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+from sklearn.externals import joblib
 st.markdown("""
     <style>
     .stApp {
