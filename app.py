@@ -1,10 +1,4 @@
 import streamlit as st
-import subprocess
-import sys
-
-# Force reinstall joblib every time app runs (temporary fix)
-subprocess.check_call([sys.executable, "-m", "pip", "install", "--force-reinstall", "joblib"])
-
 import joblib
 st.markdown("""
     <style>
